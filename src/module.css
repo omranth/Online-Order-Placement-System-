@@ -1,0 +1,21 @@
+
+.module{
+    color: white;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 96vh;
+    box-sizing: border-box;
+    margin: 0;
+    background: #00000094;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.module > h1{
+    background: green;
+    padding: 10px;
+    width: 100%;
+   }

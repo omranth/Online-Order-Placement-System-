@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #0d1b2a;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+  text-align: center;
+}
+.parent{
+    background-color: #415a77;
+    width: 500px;
+    max-width: 100%;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 0 20px black;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;}
+input{
+    display: block;
+    padding: 6px;
+    border-radius: 4px;
+    outline: none;
+  }
+  input[type="submit"] {
+    align-self: center;
+    margin-top: 10px;
+    background: #778da9;
+    color: wheat;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+        box-shadow: 0 0 10px;
+
+  }
+
+  select{
+    background: #0d1b2a;
+    color: white;
+    padding: 6px;
+  }
+  select option{
+    padding: 10px;
+  }
+  .check{
+    margin: 10px auto 5px;
+        text-align: center  ;
+  }
+
+  #sub{
+    transition: 0.5s;
+    color: #9d9d9d;
+    background-color: #161616;
+    box-shadow: 0 0 0 ;
+  }
